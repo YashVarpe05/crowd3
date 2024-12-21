@@ -35,3 +35,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-color: var(--bg-dark); /* entire site in dark mode */
   color: #fff;
 }
+
+.shimmer-animation {
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
